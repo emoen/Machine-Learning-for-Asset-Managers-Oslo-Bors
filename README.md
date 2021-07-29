@@ -64,14 +64,14 @@ Fitting the covariance matrix to the marcenko-pasture distribution assumes the e
 0.8858105886313286
 ```
 Fitting denoised_corr to the marcenko-pasture pdf:
-| ![marcenko-pastur of oslo børs last 936 trading days](https://github.com/emoen/Machine-Learning-for-Asset-Managers/blob/master/img_example_real_data/ol_n_183_T_936.png) | 
+| ![marcenko-pastur of oslo børs last 936 trading days.png](https://github.com/emoen/Machine-Learning-for-Asset-Managers-Oslo-Bors/tree/main/img/img_example_real_data/ol_n_183_T_936.png) | 
 |:--:| 
 | *Marcenko-Pasture theoretical probability density function, and empirical density function from 183 instruments the last 936 trading days:* |
 
 The largest eigenvalues of 24.02 is the market and can be de-toned.
 
 The eigenvalues before and after denoising:
-| ![eigenvalues before and after denoising](https://github.com/emoen/Machine-Learning-for-Asset-Managers/blob/master/img_example_real_data/ol_eigenvalue_method_w_osebx.png) | 
+| ![eigenvalues before and after denoising](https://github.com/emoen/Machine-Learning-for-Asset-Managers-Oslo-Bors/tree/main/img/ol_eigenvalue_method_w_osebx.png) | 
 |:--:| 
 | *A comparison of eigenvalues before and after applying the residual eigenvalue method:* |
 
@@ -104,7 +104,7 @@ array([158, 106, 151,  38,  23,  22,  77,  10,   6,  54,  47, 111,   7,
 
 
 Running the ONC algorith on Oslo Børs with 183 instruments and time frame 934:
-| ![fig_4_1_ol_block_correlation_matrix.png](https://github.com/emoen/Machine-Learning-for-Asset-Managers/blob/master/img_example_real_data/fig_4_1_ol_block_correlation_matrix.png) | 
+| ![fig_4_1_ol_block_correlation_matrix.png](https://github.com/emoen/Machine-Learning-for-Asset-Managers-Oslo-Bors/tree/main/img/fig_4_1_ol_block_correlation_matrix.png) | 
 |:--:| 
 | * There are 2 clusters. A small cluster of 8 instruments which are the salmon farming companies like AUSS.ol, BAKKA.ol, GSF.ol, LSG.ol and SALM.ol: * |
 
