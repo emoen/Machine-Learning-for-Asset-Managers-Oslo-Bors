@@ -17,12 +17,12 @@ import onc as onc
 from Machine_Learning_for_Asset_Managers import ch5_financial_labels as fl
 from Machine_Learning_for_Asset_Managers import ch7_portfolio_construction as pc
 
-import mlfinlab.trend_scanning as ts
-import mlfinlab.nco as nco
+#import mlfinlab.trend_scanning as ts
+#import mlfinlab.nco as nco
 
 #import mlfinlab as ml # used for testing code
-from mlfinlab.portfolio_optimization.mean_variance import MeanVarianceOptimisation
-from mlfinlab.portfolio_optimization.returns_estimators import ReturnsEstimators
+#from mlfinlab.portfolio_optimization.mean_variance import MeanVarianceOptimisation
+#from mlfinlab.portfolio_optimization.returns_estimators import ReturnsEstimators
 
 #Resources:
 #Random matrix theory: https://calculatedcontent.com/2019/12/03/towards-a-new-theory-of-learning-statistical-mechanics-of-deep-neural-networks/
